@@ -1,0 +1,72 @@
+{
+  "info": {
+    "_postman_id": "55a3dbe3-9252-44e3-af2e-0e154986e76f",
+    "name": "Bajaj Finserv health",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "55224521",
+    "_collection_link": "https://go.postman.co/collection/55224521-55a3dbe3-9252-44e3-af2e-0e154986e76f?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:5000/tickets/6a157bb8983ce4ea97e61f4c",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/tickets/6a157bb8983ce4ea97e61f4c",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "tickets",
+            "6a157bb8983ce4ea97e61f4c"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "get",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/tickets",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "tickets"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
